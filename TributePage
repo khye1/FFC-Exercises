@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="tribute-page-by-lb" content="Tribute Page">
+        <title>CodePen - FCC: Tribute Page by LB</title>
+        <style>
+            html {
+              /* Setting a base font size of 10px give us easier rem calculations
+                 Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+               */
+              font-size: 10px;
+            }
+            
+            body {
+              /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+                'Helvetica Neue', Arial, sans-serif;
+              font-size: 1.6rem;
+              line-height: 1.5;
+              text-align: center;
+              color: #333;
+              margin: 0;
+            }
+            
+            h1 {
+              font-size: 4rem;
+              margin-bottom: 0;
+            }
+            
+            @media (max-width: 460px) {
+              h1 {
+                font-size: 3.5rem;
+                line-height: 1.2;
+              }
+            }
+            
+            h2 {
+              font-size: 3.25rem;
+            }
+            
+            a {
+              color: #477ca7;
+            }
+            
+            a:visited {
+              color: #74638f;
+            }
+            
+            #main {
+              margin: 30px 8px;
+              padding: 15px;
+              border-radius: 5px;
+              background: #eee;
+            }
+            
+            @media (max-width: 460px) {
+              #main {
+                margin: 0;
+              }
+            }
+            
+            img {
+              max-width: 100%;
+              display: block;
+              height: auto;
+              margin: 0 auto;
+            }
+            
+            #img-div {
+              background: white;
+              padding: 10px;
+              margin: 0;
+            }
+            
+            #img-caption {
+              margin: 15px 0 5px 0;
+            }
+            
+            @media (max-width: 460px) {
+              #img-caption {
+                font-size: 1.4rem;
+              }
+            }
+            
+            #headline {
+              margin: 50px 0;
+              text-align: center;
+            }
+            
+            ul {
+              max-width: 550px;
+              margin: 0 auto 50px auto;
+              text-align: left;
+              line-height: 1.6;
+            }
+            
+            li {
+              margin: 16px 0;
+            }
+            
+            blockquote {
+              font-style: italic;
+              max-width: 545px;
+              margin: 0 auto 50px auto;
+              text-align: left;
+            }
+            </style>
+    </head>
+    <body translate="no">
+        <main id="main">
+            <h1 id="title">Martin Luther King Jr.</h1>
+            <p>An activist who became the most visible spokesman and leader in the American civil rights movement</p>
+            <figure id="img-div">
+                <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Photograph_of_White_House_Meeting_with_Civil_Rights_Leaders._June_22%2C_1963_-_NARA_-_194190_%28no_border%29.tif/lossy-page1-1920px-Photograph_of_White_House_Meeting_with_Civil_Rights_Leaders._June_22%2C_1963_-_NARA_-_194190_%28no_border%29.tif.jpg" width="500" height="500" alt="Vice President Lyndon B. Johnson and Attorney General Robert F. Kennedy with King, Benjamin Mays, and other civil rights leaders, June 22, 1963">
+                <figcaption id="img-caption">
+                    Vice President Lyndon B. Johnson and Attorney General Robert F. Kennedy with King, Benjamin Mays, and other civil rights leaders, June 22, 1963
+                </figcaption>
+            </figure>
+            <section id="tribute-info">
+                <h3 id="headline">
+                    Here's a summary of Martin Luther King Jr's life:
+                </h3>
+                <ul>
+                    <li>King was born Michael King Jr. on January 15, 1929, in Atlanta, Georgia, the second of three children to Michael King and Alberta King</li>
+                    <li>At his childhood home, King and his two siblings would read aloud the Bible as instructed by their father</li>
+                    <li>In his adolescent years, he initially felt resentment against whites due to the "racial humiliation" that he, his family, and his neighbors often had to endure in the segregated South</li>
+                    <li>During King's junior year in high school, Morehouse College—an all-male historically black college which King's father and maternal grandfather had attended[65][66]—began accepting high school juniors who passed the school's entrance examination.</li>
+                    <li>King enrolled in Crozer Theological Seminary in Upland, Pennsylvania.King graduated with a B.Div. degree in 1951.</li>
+                    <li>In 1951, King began doctoral studies in systematic theology at Boston University. While pursuing doctoral studies, King worked as an assistant minister at Boston's historic Twelfth Baptist Church with William Hunter Hester. Hester was an old friend of King's father and was an important influence on King.</li>
+                    <li>While studying at Boston University, he asked a friend from Atlanta named Mary Powell, who was a student at the New England Conservatory of Music, if she knew any nice Southern girls. Powell asked fellow student Coretta Scott if she was interested in meeting a Southern friend studying divinity.</li>
+                    <li>In March 1955, Claudette Colvin—a fifteen-year-old black schoolgirl in Montgomery—refused to give up her bus seat to a white man in violation of Jim Crow laws, local laws in the Southern United States that enforced racial segregation.</li>
+                    <li>Harry Wachtel joined King's legal advisor Clarence B. Jones in defending four ministers of the SCLC in the libel case New York Times Co. v. Sullivan; the case was litigated in reference to the newspaper advertisement "Heed Their Rising Voices". Wachtel founded a tax-exempt fund to cover the suit's expenses and assist the nonviolent civil rights movement through a more effective means of fundraising. This organization was named the "Gandhi Society for Human Rights."</li>
+                    <li>On September 20, 1958, King was signing copies of his book Stride Toward Freedom in Blumstein's department store in Harlem[117] when he narrowly escaped death. Izola Curry—a mentally ill black woman who thought that King was conspiring against her with communists—stabbed him in the chest with a letter opener, which nearly impinged on the aorta.</li>
+                    <li>Georgia governor Ernest Vandiver expressed open hostility towards King's return to his hometown in late 1959. He claimed that "wherever M. L. King, Jr., has been there has followed in his wake a wave of crimes", and vowed to keep King under surveillance</li>
+                    <li>The Albany Movement was a desegregation coalition formed in Albany, Georgia, in November 1961. In December, King and the SCLC became involved. The movement mobilized thousands of citizens for a broad-front nonviolent attack on every aspect of segregation within the city and attracted nationwide attention.</li>
+                    <li>In April 1963, the SCLC began a campaign against racial segregation and economic injustice in Birmingham, Alabama. The campaign used nonviolent but intentionally confrontational tactics, developed in part by Wyatt Tee Walker. Black people in Birmingham, organizing with the SCLC, occupied public spaces with marches and sit-ins, openly violating laws that they considered unjust.</li>
+                    <li>King, representing the SCLC, was among the leaders of the "Big Six" civil rights organizations who were instrumental in the organization of the March on Washington for Jobs and Freedom, which took place on August 28, 1963 and gave the <a href="https://en.wikipedia.org/wiki/I_Have_a_Dream" target="_blank">I have a dream</a> speech.</li>
+                    <li>King passed away at St. Joseph's Hospital at 7:05 p.m after being fatally shot by James Earl Ray at 6:01 p.m., Thursday, April 4, 1968, as he stood on the motel's second-floor balcony.</li>
+                </ul>
+                <blockquote>
+                    <p>
+                        Martin Luther King Jr. was the conscience of his generation. He gazed upon the great wall of segregation and saw that the power of love could bring it down. From the pain and exhaustion of his fight to fulfill the promises of our founding fathers for our humblest citizens, he wrung his eloquent statement of his dream for America. He made our nation stronger because he made it better. His dream sustains us yet.
+                    </p>
+                    <cite>- President Jimmy Carter awarded the Presidential Medal of Freedom to King in 1977</cite>
+                </blockquote>
+                <h3>If you have time, you should read more about this incredible human being on his
+                    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr." target="_blank">Wikipedia</a></h3>
+            </section>
+        </main>
+    </body>
+</html>
